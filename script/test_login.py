@@ -1,4 +1,4 @@
-# 邮箱等哭测试
+# 订单提交测试(不能单独执行)
 import time
 import unittest
 
@@ -14,11 +14,7 @@ from utils import DriverUtil
 from page.qq_email_login_page import EmailLoginPage
 
 
-def build_login_data()->list:
-    """
-    处理json文件参数化
-    :return: list格式
-    """
+def build_login_data():
     # 初始化一个空列表
     login_data_list = list()
     with open(config.BASE_DIR + '/data/login_data.json', encoding='utf-8') as f:

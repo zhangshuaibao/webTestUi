@@ -1,4 +1,4 @@
-# 发送邮件/
+# 订单提交测试(不能单独执行)
 import time
 import unittest
 
@@ -29,7 +29,7 @@ class TestWrite(unittest.TestCase):
     def test_input_email_data(self):
         switch_to_frame('mainFrame')
 
-        self.email_write_page.input_recipient_box('82042484@qq.com')  # 输入收件人地址
+        self.email_write_page.input_recipient_box('820424843@qq.com')  # 输入收件人地址
 
         self.email_write_page.input_subject_box('哈哈哈啊哈哈哈')  # 输入邮件主题
         switch_to_frame("", dr=3)  # 回到主frame

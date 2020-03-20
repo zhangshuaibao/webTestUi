@@ -9,10 +9,6 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))  # 工程根目录
 # print(">>>>", __file__)
 
 def init_log_config():
-    """
-    日志处理
-    :return:
-    """
     # 创建日志器
     logger = logging.getLogger()
     # 设置日志级别

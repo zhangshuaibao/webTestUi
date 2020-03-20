@@ -15,9 +15,9 @@ suite = unittest.TestSuite()
 
 # 组装测试用例
 
-suite.addTest(unittest.makeSuite(TestLogin))  # 登陆
-# suite.addTest(unittest.makeSuite(TestWrite))#写
-# suite.addTest(unittest.makeSuite(TestReturn))#读
+suite.addTest(unittest.makeSuite(TestLogin)) #登陆失败无法执行后几步
+# suite.addTest(unittest.makeSuite(TestWrite))
+# suite.addTest(unittest.makeSuite(TestReturn))
 
 # 关掉浏览器退出方法
 DriverUtil.auto_quit(False)

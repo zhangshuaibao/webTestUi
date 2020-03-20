@@ -1,6 +1,7 @@
-# 读取邮件/
+# 订单提交测试(不能单独执行)
 import time
 import unittest
+
 import utils
 from page.qq_email_homepage import EmailHomePage
 from page.receiving_page import REceivingPage

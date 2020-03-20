@@ -1,21 +1,21 @@
 {
   "test_login": [
     {
-      "desc": "登录失败",
+      "desc": "登录错误",
       "username": "13800001111",
       "password": "123456",
       "expect": "登录QQ邮箱"
     },
     {
-      "desc": "登录失败",
-      "username": "1261902893",
+      "desc": "登录错误",
+      "username": "1261902892",
       "password": "123456",
       "expect": "登录QQ邮箱"
     },
     {
-      "desc": "登录失败",
-      "username": "8008208820",
-      "password": "zxz111111111",
+      "desc": "登录错误",
+      "username": "126190289",
+      "password": "zxz19",
       "expect": "QQ邮箱"
     }
   ]
