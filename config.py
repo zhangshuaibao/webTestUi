@@ -2,7 +2,7 @@ import os
 import logging.handlers
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))  # 工程根目录
-# 111111
+# 111111123123123
 
 # print(os.path.dirname(os.path.abspath(__file__)))
 # print("====", os.path.abspath(__file__))
